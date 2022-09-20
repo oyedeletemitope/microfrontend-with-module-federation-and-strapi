@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+  color: #e310cb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff17e4;
+  text-decoration: none;
+}
+
+/* intro styles*/
+#intro {
+  padding-bottom: 10rem;
+  background-color: #171321
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+
+.name span {
+  margin-top: 18px;
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: #86fbfb;
+  display: block;
+}
+
+intro h2 {
+  font-size: 10rem;
+  color: #fff;
+}
+
+
+.pricing {
+  display: flex;
+  float: left;
+  width: 25%;
+
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: #333;
+  min-height: 320px;
+  max-width: 260px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.plan_description {
+  margin-bottom: 48px;
+  color: lightslategray;
+  line-height: 140%;
+  letter-spacing: .25px;
+}
+
+.price {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.price_description {
+  font-size: 12px;
+  color: lightslategray;
+  margin-bottom: 16px;
+}
